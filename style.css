@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.primo{
+   color: white;
+}
+header{
+    height: 300px;
+    background-image:url('immagini/elefante.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+}
+div.intero{
+    display: flex;
+    flex-direction: row;
+}
+div.nav{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font-size: 25px;
+    padding: 20px;
+    background-color:#ccc;
+}
+div.intermedio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+div.menu{
+    display: flex;
+    flex-direction: column;
+}
+div.article{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color:#ccc;
+}
+div.form{
+    display: flex;
+    flex-direction: column;
+}
+div.aside{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color:#ccc;
+    
+}
+
+
+footer{
+    height: 500px;
+    background-image:url('immagini/piede_elefante.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+h2.piede{
+    font-size: 60px;
+    margin: 0%;
+    color: white;
+}
+
+
+@media (max-width: 1000px ){
+    header{
+        height: 600px;
+        background-image:url('immagini/tiger.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    }
+    div.intero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    div.nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-between;
+        width: 100%;
+        background-color:greenyellow;
+    }
+    div.menu{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    div.intermedio{
+        display: flex;
+        flex-direction: row;
+    }
+    div.article{
+        width: 50%;
+        background-color:greenyellow;
+    }
+    div.aside{
+        width: 50%;
+        background-color:greenyellow;
+    }
+    footer{
+        height: 700px;
+        background-image:url('immagini/tiger_paw.jpg');
+        background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-size: 60px;
+      
+    }
+}
+@media only screen and (max-width: 700px){
+    header{
+        height: 700px;
+        background-image:url('immagini/dog.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    }
+    h2.primo{
+        color: black;
+     }
+     div.intero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+    div.nav{
+        width: 100%;
+        background-color:burlywood;
+    }
+    div.intermedio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.article{
+        width: 100%;
+        background-color:burlywood;
+}
+div.aside{
+    width: 100%;
+    background-color:burlywood;
+}
+footer{
+    height: 800px;
+    background-image:url('immagini/zampa_cane.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 60px;
+  
+}
+}
